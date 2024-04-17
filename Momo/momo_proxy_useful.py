@@ -74,7 +74,7 @@ class MY_GUI():
                     if i != 0:
                         time.sleep(random.randint(60, 120))
                     #换成自己的代理
-                    proxies = self.jl_api('写自己的代码url')
+                    proxies = self.jl_api('https://www.maimemo.com/share/page?uid=20934648&pid=80bc391a2fafc794df79fe910a134745&tid=79cbbcd687605c8b1a55a152af922c20')
                     suc_num = self.run(share_url, suc_num, proxies)
 
                     self.progressbarOne['value'] += 1
