@@ -147,3 +147,4 @@ def ip_main():
     global listIP
     listIP = list(set(listIP))  # 代理去重
     print(f"代理ip抓取完成,共{len(listIP)}个可用代理ip地址。")
+    print(listIP[10:100])
